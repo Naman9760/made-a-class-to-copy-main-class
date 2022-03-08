@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp7
+{
+    class employe
+    {
+        public string name = "naman";
+        public int id = 201;
+        public int salary = 35000;
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            employe a=new employe();
+            Console.WriteLine("emp name ="+a.name);
+            Console.WriteLine("emp id ="+a.id);
+            Console.WriteLine("emp salary ="+a.salary);
+            Console.ReadLine();
+
+        }
+    }
+}
