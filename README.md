@@ -1,0 +1,1 @@
+# made-a-class-to-copy-main-class
